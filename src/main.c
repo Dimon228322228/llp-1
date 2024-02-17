@@ -23,7 +23,10 @@ int main(int argc, char **argv) {
         printf("file was read\n");
     }
 
+    test_insert(f);
     test_read(f);
+    test_update(f);
+    test_delete(f);
 
     del_file(f);
     return 0;
