@@ -5,6 +5,7 @@ project(llp C)
 file(GLOB_RECURSE sources CONFIGURE_DEPENDS
         src/*/*.c
         include/*/*.h
+        main.c
         )
 
 add_executable(llp ${sources})
