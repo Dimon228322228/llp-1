@@ -292,8 +292,8 @@ void update_person_object_test(struct file *f) {
 
 void test_insert(struct file *f) {
 
-    int d = 10000;
-    int max = 100000;
+    int d = 1000;
+    int max = 10000;
     clock_t start, end;
     double t;
     char *p_name = malloc(sizeof(char) * 20);
@@ -314,7 +314,7 @@ void test_insert(struct file *f) {
 
 void test_read(struct file *f) {
 
-    int c = 100000;
+    int c = 10000;
     clock_t start, end;
     double t;
     char *p_name = malloc(sizeof(char) * 20);
@@ -343,7 +343,7 @@ void test_read(struct file *f) {
 
 void test_update(struct file *f) {
 
-    int c = 100000;
+    int c = 10000;
     clock_t start, end;
     double t;
     char *p_name = malloc(sizeof(char) * 20);
@@ -354,7 +354,7 @@ void test_update(struct file *f) {
     }
 
 
-    int d = 10000;
+    int d = 1000;
     for (int i = d; i <= c; i += d) {
 
         start = clock();
@@ -377,7 +377,7 @@ void test_update(struct file *f) {
 
 void test_delete(struct file *f) {
 
-    int c = 100000;
+    int c = 10000;
     clock_t start, end;
     double t;
     char *p_name = malloc(sizeof(char) * 20);
@@ -388,7 +388,7 @@ void test_delete(struct file *f) {
     }
 
 
-    int d = 10000;
+    int d = 1000;
     for (int i = d; i <= c; i += d) {
 
         start = clock();
