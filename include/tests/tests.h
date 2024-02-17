@@ -18,6 +18,5 @@ void test_insert(struct file *f);
 void test_read(struct file *f);
 void test_update(struct file *f);
 void test_delete(struct file *f);
-void mega_test(struct file *f);
 
 #endif//LLP_TESTS_H
